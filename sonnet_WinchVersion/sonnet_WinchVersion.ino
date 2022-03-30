@@ -46,7 +46,6 @@ Adafruit_NeoPixel pixels(NUM_PIXELS, PIXEL_ADDRESS, NEO_GRB + NEO_KHZ800);
 int rawValue;
 int oldValue;
 
-int winchSpeed = 0;        // value read from the pot
 float mapSpeed = 0.0;        // value output to the PWM
 float speedDebounce;
 
@@ -85,7 +84,7 @@ float roll, pitch, yaw;
 
 // winch serial read:
 
-float winchDEPLOYED,winchMPH,winchLOAD,winchMOTOR = 999.9;
+float winchDEPLOYED,winchMPH,winchLOAD,winchMOTOR,winchON,winchSPEED,winchDIRECTION = 999.9;
 
 //deltas
 
@@ -133,7 +132,6 @@ void loop()
  
  updateIndicators();
   
- //analogWrite(PID_OUTPUT,generatePWM());
 }
 
 
@@ -252,187 +250,17 @@ void parseWinchData() {      // split the data into its parts
 }
 
 
-//////////////////////////////////////////////////////PROBE SERIAL READING
-
-
-void readProbe() {
-    recSerial();
-    
-    if (newData == true) {
-         //serialUSB.print("r ");
-         //serialUSB.println(receivedChars);
-        strcpy(tempChars, receivedChars);
-            // this temporary copy is necessary to protect the original data
-            //   because strtok() used in parseData() replaces the commas with \0
-        parseProbeData();
-        getEuler();
-        //fillProbeDeltas();
-        newData = false;
-
-           //float deltas10 = calculateProbeDeltas(10);
-           //if (deltas10 != NULL ){
-           //Serial.println(deltas10);
-           //}
-           //else {
-            //Serial.println("waiting for 10...");
-           //}
-           
-           /*
-           float deltas100 = calculateProbeDeltas(100);
-           if (deltas100 != NULL ){
-           Serial.println(deltas100);
-           }
-           else {
-           Serial.println("waiting for 100...");
-           }
-           */
-    }
-    
-
-}
-
-
-void parseProbeData() {      // split the data into its parts
-
-  //format from PAINTRE (may 21st 2020):
-  //i,j,k,real,linx,liny,linz,lintotal,stabilityclassifier,intT1,intT2,T1,T2,
-  
-    char * strtokIndx; // this is used by strtok() as an index
-    //serialUSB.print("tempChars: \n");
-    //serialUSB.println(tempChars);
-
-    strtokIndx = strtok(tempChars,",");
-    i = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ","); // this continues where the previous call left off
-    j = atof(strtokIndx);
-    
-    strtokIndx = strtok(NULL, ",");
-    k = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ",");
-    real = atof(strtokIndx);
-
-    
-    strtokIndx = strtok(NULL, ",");
-    linx = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ",");
-    liny = atof(strtokIndx);
-    
-    strtokIndx = strtok(NULL, ",");
-    linz = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ",");
-    lintotal = atof(strtokIndx);
-
-
-    strtokIndx = strtok(NULL, ",");
-    stabilityClassifier = atof(strtokIndx);
-       
-    strtokIndx = strtok(NULL, ",");
-    intT1 = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ",");
-    intT2 = atof(strtokIndx);
-    
-    strtokIndx = strtok(NULL, ",");
-    T1 = atof(strtokIndx);
-
-    strtokIndx = strtok(NULL, ",");
-    T2 = atof(strtokIndx);
-
-    
-}
-
-
-
-
-void getEuler(){ //convert the BNO080's native Quaternion system into intuitive euler angles (pitch, roll, yaw)
-
-  float dqw = real;
-  float dqx = i;
-  float dqy = j;
-  float dqz = k;
-
-  float norm = sqrt(dqw*dqw + dqx*dqx + dqy*dqy + dqz*dqz);
-  dqw = dqw/norm;
-  dqx = dqx/norm;
-  dqy = dqy/norm;
-  dqz = dqz/norm;
-
-  float ysqr = dqy * dqy;
-
-  // roll (x-axis rotation)
-  float t0 = +2.0 * (dqw * dqx + dqy * dqz);
-  float t1 = +1.0 - 2.0 * (dqx * dqx + ysqr);
-  roll = atan2(t0, t1) * 180.0 / PI;;
-  
-  // pitch (y-axis rotation)
-  float t2 = +2.0 * (dqw * dqy - dqz * dqx);
-  t2 = t2 > 1.0 ? 1.0 : t2;
-  t2 = t2 < -1.0 ? -1.0 : t2;
-  pitch = asin(t2) * 180.0 / PI;;
-  
-  // yaw (z-axis rotation)
-  float t3 = +2.0 * (dqw * dqz + dqx * dqy);
-  float t4 = +1.0 - 2.0 * (ysqr + dqz * dqz);
-  yaw = atan2(t3, t4) * 180.0 / PI;;
-  
-  /*
-  Serial.print("r p y = ");
-  Serial.print(roll);
-  Serial.print("\t");
-  Serial.print(pitch);
-  Serial.print("\t");
-  Serial.print(yaw);
-  Serial.println();
-  */
-}
-
-uint8_t generatePWM(){//default (0V on PID input) is no power output. Non-zero values mean generate voltage, e.g. output is inversely proportional to temp.
-  const int minbounds = -10;
-  const int maxbounds = 99;
-                            //example: (t1 = 55. T2 = 57.) minbounds = -10, maxbounds = 99. max 
-                            //map function: (x - in_min) * (out_max - out_min) / (in_max - in_min) + out_min;
-                            //((57+55)/2 - -10) * (0 - 255) / (99 - -10) + 255) = 100.59
-                            //as such, t1=0, output = 234. closer you get to minbounds (-10), the higher the output is.
-
-
-  if(T1< 1999){//do not use data if t1 is an error value (2000.0).
-    if(T2<1999){
-      return (map((T1+T2)/2,minbounds, maxbounds, 255,0)); //if both temp measurements are not 2000, then map the average from min to max bounds.
-    }
-    return (map(T1,minbounds, maxbounds, 255,0)); //if only t1 valid
-  }
-  else if(T2<1999){
-    return (map(T2,minbounds, maxbounds, 255,0)); //if only t2 valid
-  }
-
-  return NULL; //todo: test what happens when analogWriting a null value.
-}
 
 ///////////////////////////////////////////////////////////BUILDING TFT STRING
 
-void buildString(){  //called when there is new data from probe (if winch updates in the meantime, updated info will show on next probe read).
-      float gData[20] = {T1,T2,stabilityClassifier,intT1,intT2,roll,pitch,yaw,winchDEPLOYED,winchMPH,winchLOAD};
-      serialTFT.print("<");
-      //serialUSB.print("<");
-      for(int i=0;i<10;i++){
-      serialTFT.print(gData[i]);
-      serialTFT.print(",");
-      
-      //serialUSB.print(gData[i]);
-      //serialUSB.print(",");
-      }
-      serialTFT.print(">");
-      serialTFT.println();
-      //serialUSB.print(">");
-      //serialUSB.println();
-}
 
 void buildString_WinchOnly(){  //called when there is new data from probe (if winch updates in the meantime, updated info will show on next probe read).
-      float gData[3] = {winchDEPLOYED,winchMPH,winchLOAD};
+      
+      if(winchEnable){
+        winchON = 1.1;
+      }
+
+      float gData[6] = {winchDEPLOYED,winchMPH,winchLOAD,winchON,winchSPEED,winchDIRECTION};
       serialTFT.print("<");
       //serialUSB.print("<");
       for(int i=0;i<3;i++){
@@ -460,10 +288,13 @@ void updateWinch(){
         winchCommand = "<MPH,"; //start building the winch speed command
 
         if (digitalRead(WINCH_DIRECTION)==LOW){  //if direction switch is down
+          winchDIRECTION = 0.0;
           winchCommand += "-"; //add a minus to indicate direction
-        }           
+        }     
+          else{winchDIRECTION = 1.1;}   
         
         winchCommand += mapSpeed; //add result to String
+        winchSPEED = mapSpeed;
         winchCommand.remove(winchCommand.length()-1); //remove last decimal point
         winchCommand += ">"; //terminate the winch command
 
@@ -607,27 +438,6 @@ void updateIndicators(){
 
   //tilt OL
   
-
-  ///stability status
-
-  
-if (stabilityClassifier > 4) { //comparing floats is a bad idea
-     pixels.setPixelColor(STABILITY_CLASSIFIER_LED, pixels.Color(255,0,0)); //MOVING
- }
- else if (stabilityClassifier > 3){
-     pixels.setPixelColor(STABILITY_CLASSIFIER_LED, pixels.Color(255,0,255)); //STABLE
- }
- else if (stabilityClassifier > 2){
-     pixels.setPixelColor(STABILITY_CLASSIFIER_LED, pixels.Color(0,0,255)); //STOPPED
- }
- else if (stabilityClassifier > 1){
-     pixels.setPixelColor(STABILITY_CLASSIFIER_LED, pixels.Color(50,50,50)); //AT REST
- }
- else {
-     pixels.setPixelColor(STABILITY_CLASSIFIER_LED, pixels.Color(0,0,0)); //ERROR
- }
-
-   pixels.show();
 }
 
 void setTempIndicators(int pin, int value){
@@ -653,22 +463,6 @@ void writeLEDs(uint8_t address, uint8_t value){
   //leds GRB, up to 255, lower values means dimmer.
   pixels.setPixelColor(address, Wheel(value/3));
   pixels.show();
-}
-
-void idle(){
-   
-    if(millis() >= time_idle + idleDelay){
-        time_idle += idleDelay;
-        idleWheel++;
-        if(idleWheel > 150){
-          idleWheel = 0;
-        }
-        for(i=0; i<NUM_PIXELS; i++) {
-      pixels.setPixelColor(i, Wheel2(idleWheel));
-    }
-          pixels.show();
-    }
-    
 }
 
     // Input a value 0 to 255 to get a color value.
