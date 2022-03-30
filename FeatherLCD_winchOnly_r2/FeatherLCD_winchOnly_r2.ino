@@ -342,13 +342,17 @@ void parseSONNET() {      // split the data into its parts
   
   
  tft.setTextSize(3); 
-      /*
+ tft.setCursor(0, 0);
+  tft.print("h"); //weirdly this line print needs to be here to stop the whole thing from glitching
+
+
+ 
  if(abs(winchDEPLOYED-oldDepth) > 0.1){
-  
        tft.setCursor(401, 24);
        tft.fillRect(400, 24, 120, 35, HX8357_YELLOW); //x,y,w,h,color
        tft.print(winchDEPLOYED);
-       oldDepth = winchDEPLOYED;}
+       oldDepth = winchDEPLOYED;
+ }
 
 if(abs(winchMPH-oldMPH) > 0.1){
 
@@ -357,7 +361,7 @@ if(abs(winchMPH-oldMPH) > 0.1){
        tft.print(winchMPH);
        oldMPH = winchMPH;
       }
-
+       
 if(abs(winchLOAD-oldLoad) > 0.1){
 
        tft.setCursor(401, 75);
@@ -365,8 +369,6 @@ if(abs(winchLOAD-oldLoad) > 0.1){
        tft.print(winchLOAD);
        oldLoad = winchLOAD;
        }
-      
-*/
 
 
 
