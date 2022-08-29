@@ -1,0 +1,20 @@
+### Module positions - created on Tue 03 Dec 2019 12:07:36 PM CET ###
+### Printed by Pcbnew version kicad 5.0.2-bee76a0~70~ubuntu18.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                 Package                                        PosX       PosY       Rot  Side
+C8        .1u                 C_1206_HandSoldering_silkscreenlabel      -126.3300  -110.0800  270.0000  bottom
+C16       .1u                 C_1206_HandSoldering_Invisible-reference  -128.8300   -88.6300    0.0000  bottom
+C17       10n                 C_1206_HandSoldering_Invisible-reference  -129.6600   -77.7000  180.0000  bottom
+C18       10u                 C_1206_HandSoldering_Invisible-reference  -129.0900   -86.4700  180.0000  bottom
+C19       10u                 C_1206_HandSoldering_Invisible-reference  -129.0900   -84.4700  180.0000  bottom
+D7        AQ12                SOT-23_handsoldering                      -129.1600   -73.0000  270.0000  bottom
+L1        Ferrite_Bead_Small  ferrite_bead_handsolder-1206              -134.0000  -131.2500  270.0000  bottom
+L2        Ferrite_Bead_Small  ferrite_bead_handsolder-1206              -136.5000  -131.2500   90.0000  bottom
+L3        Ferrite_Bead_Small  ferrite_bead_handsolder-1206              -140.5000  -131.2500  270.0000  bottom
+L4        Ferrite_Bead_Small  ferrite_bead_handsolder-1206              -143.0000  -131.2500   90.0000  bottom
+L5        Ferrite_Bead_Small  ferrite_bead_handsolder-1206              -126.2200   -73.1900   90.0000  bottom
+U2        MAX31855KASA        SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm          -135.3650  -124.3000   90.0000  bottom
+U3        MAX31855KASA        SOIC-8-1EP_3.9x4.9mm_Pitch1.27mm          -141.6150  -123.9500   90.0000  bottom
+U6        LP2985-5.0          SOT-23-5_HandSoldering                    -128.5900   -81.4200    0.0000  bottom
+## End
