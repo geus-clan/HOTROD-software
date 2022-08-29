@@ -1,0 +1,2 @@
+SONNET, the winch controller used in the field in 2022, has two separate processors that communicate together. One is used to send and receive data to/from the winch, and the other is internally used to drive the color display with received data and hardware setpoints.
+The firmware here is split into two folders: Sonnet_WinchVersion, which is for the Arduino Mega inside the SONNET. The other file, FeatherLCD_WinchOnly, is to run on an Adafruit Feather WICED with TFT shield.
