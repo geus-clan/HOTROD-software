@@ -263,7 +263,7 @@ void buildString_WinchOnly(){  //called when there is new data from probe (if wi
       float gData[6] = {winchDEPLOYED,winchMPH,winchLOAD,winchON,winchSPEED,winchDIRECTION};
       serialTFT.print("<");
       //serialUSB.print("<");
-      for(int i=0;i<3;i++){
+      for(int i=0;i<6;i++){
       serialTFT.print(gData[i]);
       serialTFT.print(",");
       
@@ -305,8 +305,11 @@ void updateWinch(){
         serialWinch.println(winchCommand);
         serialUSB.println("updated");
         lastWinchCommand = winchCommand; //store the command for later comparison
+        for (int i=0; i<NUM_PIXELS+1; i++){
+            writeLEDs(i, analogRead(WINCH_SPEED)/4);
 
-        writeLEDs(WINCH_LED, analogRead(WINCH_SPEED)/4);
+        }
+        //writeLEDs(WINCH_LED, analogRead(WINCH_SPEED)/4);
         }
         
         }
