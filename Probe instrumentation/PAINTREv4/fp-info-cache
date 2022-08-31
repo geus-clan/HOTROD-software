@@ -1,4 +1,4 @@
-20362167992286446
+20363829937975755
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57763,6 +57763,13 @@ SSOP 0.5
 0
 10
 10
+Library
+Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC-NL.pdf
+tag connect programming header pogo pins
+0
+6
+6
 Library
 TestPoint_Pad_2.0x2.0mm
 SMD rectangular pad as test Point, square 2.0mm side length
