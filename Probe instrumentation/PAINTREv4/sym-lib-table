@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "TFRAS_TOP-rescue")(type "Legacy")(uri "C:/Users/clan/Documents/GitHub/TFRAS/Schematics and PCBs/TFRAS_TOP/TFRAS_TOP-rescue.lib")(options "")(descr ""))
+  (lib (name "PAINTREv3-rescue")(type "Legacy")(uri "C:/Users/clan/Documents/GitHub/HOTROD-software/Probe instrumentation/PAINTREv3/PAINTREv3-rescue.lib")(options "")(descr ""))
+)
