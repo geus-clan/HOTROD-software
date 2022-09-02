@@ -1,4 +1,4 @@
-20363829937975755
+20367154161252711
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57729,6 +57729,13 @@ SOIC SO
 8
 8
 Library
+SOT-5X3-8
+
+
+0
+8
+8
+Library
 SOT-23-5_HandSoldering
 5-pin SOT23 package
 SOT-23-5 hand-soldering
@@ -57742,6 +57749,13 @@ SOT-23
 0
 3
 3
+Library
+SOT50P160X60-6N
+
+
+0
+6
+6
 Library
 ScrewTerminal_1x12_P2.54mm_Vertical
 Through hole straight pin header, 1x12, 2.54mm pitch, single row
