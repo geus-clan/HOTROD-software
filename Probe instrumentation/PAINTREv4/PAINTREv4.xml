@@ -1,0 +1,1280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\clan\Documents\GitHub\HOTROD-software\Probe instrumentation\PAINTREv4\PAINTREv4.kicad_sch</source>
+    <date>9/2/2022 1:18:29 PM</date>
+    <tool>Eeschema (6.0.6)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PAINTREv4.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="A1">
+      <value>Arduino_Nano_Every</value>
+      <footprint>Module:Arduino_Nano</footprint>
+      <datasheet>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</datasheet>
+      <libsource lib="MCU_Module" part="Arduino_Nano_Every" description="Arduino Nano Every"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e0151f1-0507-449c-a842-e596484ed361</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601240ac</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006008e879</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04a6f097-7c94-4c65-a111-c72cb2e87c06</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ed85919-b36a-4e08-89d1-203299bd7a32</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56eb5e43-eb8c-458f-a357-7d414bd99470</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bbfdca7-6205-490e-ba08-f83a50c7db2a</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>10u</value>
+      <footprint>Library:C_1206_HandSoldering_silkscreenlabel</footprint>
+      <libsource lib="PAINTREv3-rescue" part="CP-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dadc841</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0503c08-0d2c-4b14-939f-26892a138cb6</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8a03e6d-e8da-4dc4-919a-43630803593c</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d99c4f80-921a-4b2b-8f1f-7858a1583766</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8e401ac4-dad5-4c19-bb9b-8c333a53bcc1</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef72f28f-fa76-414e-b77c-01bc789c9550</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77f67723-db67-49a0-a4b1-682dce4eb12a</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000600e92d1</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000600e92d7</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>.01u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0cf48cc5-4d17-4a18-a9c9-37578bf72f73</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>.01u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a50fe78b-cce3-410c-b51b-b5a7dfa6e757</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>.01u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>81cb1bd1-86f4-4c8b-b210-43108c739a9c</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>.01u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d580726f-88de-4760-9b4a-d53c667572cb</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>.01u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84633b83-f61f-4ce4-a5ce-35b4290dfb82</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006008e942</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>.1u</value>
+      <footprint>Library:C_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">C1525</field>
+        <field name="seeed sku">302010004</field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="JLC part number" value="C1525"/>
+      <property name="seeed sku" value="302010004"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f729604</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>AQ12</value>
+      <footprint>Library:SOT-23_handsoldering</footprint>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc455cc</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>Polyfuse</value>
+      <footprint>Library:Fuse_0603_1608Metric</footprint>
+      <libsource lib="Device" part="Polyfuse" description="Resettable fuse, polymeric positive temperature coefficient"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060094555</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>~</value>
+      <footprint>Library:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006178d339</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Library:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006002e052</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Library:MountingHole_3.2mm_M3</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006002dcf5</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>ethernet</value>
+      <footprint>Connector_PinSocket_2.00mm:PinSocket_1x08_P2.00mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x08_Male" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000601a042b</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>TC1</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bc79bfed-0daf-4f0b-8eb1-143025cc1bea</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>TC2</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bbde4239-a44d-408d-ae72-e6c2366d9f2f</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>TC3</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a2aeb28-0b3b-49e2-a50f-e03c986de4e3</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>TC4</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1125cd74-36c8-41bc-9e57-a39b5de4f5de</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>TC5</value>
+      <footprint>Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82bdfbbd-345a-43cb-a398-864a8dca8604</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>BN080</value>
+      <footprint>Library:JST_SH_SM04B-SRSS-TB_04x1.00mm_Angled</footprint>
+      <libsource lib="PAINTREv3-rescue" part="Connector_Conn_01x04_Female-newvco-cache-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dbb51b0</tstamps>
+    </comp>
+    <comp ref="L5">
+      <value>Ferrite_Bead_Small</value>
+      <footprint>Library:ferrite_bead_1206</footprint>
+      <libsource lib="PAINTREv3-rescue" part="Ferrite_Bead_Small-Device" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005de07c7e</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a9934a76-032d-44af-aee2-f528135a75f0</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b53c94b6-6dd4-4a19-b4a1-a623e50bd373</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>878d8bb0-8ad7-4997-996e-3a37aa397ccf</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>415046fb-4f18-474a-b9da-6ffbdd3396d8</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed526fea-a310-498e-9aee-d8c6d9f64116</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>908c5d47-b1a9-4f9f-a334-e54ddd20c3eb</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006008ef7f</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1M</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32f2d7f2-03f0-463e-b6c9-87b2691f788e</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006008f0be</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>1M</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa71c303-a642-4618-a5d9-79b5500ba003</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1M</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>10bf926a-a294-470c-91df-ee01b5c6ce02</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1M</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0327d0a6-b890-43e2-8701-65d3e7dab5d2</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1M</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000060069fda</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000600e92e3</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-0000600e92e9</tstamps>
+    </comp>
+    <comp ref="R53">
+      <value>10k</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">C17903</field>
+        <field name="seeed sku">301010405</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLC part number" value="C17903"/>
+      <property name="seeed sku" value="301010405"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6040b697-64b2-4917-ab86-14ed3fb71941</tstamps>
+    </comp>
+    <comp ref="R54">
+      <value>10k</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">C17903</field>
+        <field name="seeed sku">301010405</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLC part number" value="C17903"/>
+      <property name="seeed sku" value="301010405"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>21a906d3-5dc2-4971-8b2d-7c9b0a5d032c</tstamps>
+    </comp>
+    <comp ref="R55">
+      <value>10R</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">C17903</field>
+        <field name="seeed sku">301010405</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLC part number" value="C17903"/>
+      <property name="seeed sku" value="301010405"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f7407d4</tstamps>
+    </comp>
+    <comp ref="R56">
+      <value>10R</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">C17903</field>
+        <field name="seeed sku">301010405</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLC part number" value="C17903"/>
+      <property name="seeed sku" value="301010405"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005f741121</tstamps>
+    </comp>
+    <comp ref="R57">
+      <value>120r</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <fields>
+        <field name="JLC part number">---</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="JLC part number" value="---"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000061901231</tstamps>
+    </comp>
+    <comp ref="Ri2cSCL1">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc0f2c7</tstamps>
+    </comp>
+    <comp ref="Ri2cSCL2">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006011d5a0</tstamps>
+    </comp>
+    <comp ref="Ri2cSDA1">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00005dc0f391</tstamps>
+    </comp>
+    <comp ref="Ri2cSDA2">
+      <value>500</value>
+      <footprint>Library:R_0603_1608Metric_fabdesignatorsmall</footprint>
+      <libsource lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006011d5aa</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90cc08c2-df32-415f-b727-e0be17571c82</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46398ba6-cd5e-4753-b884-194db6fa5989</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9bf8fca3-9128-4030-9d02-eddb8dd9f224</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>142a7e74-22fc-4a85-a07d-68d309171ccf</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>MAX31855KASA</value>
+      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</datasheet>
+      <libsource lib="Sensor_Temperature" part="MAX31855KASA" description="Cold Junction K-type Termocouple Interface, SPI, SO8"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac9bbacf-548f-4bbc-b662-5325288e754e</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>~</value>
+      <footprint>Library:SOT-5X3-8</footprint>
+      <datasheet>https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf</datasheet>
+      <fields>
+        <field name="seeed sku">MAX3471EUA</field>
+      </fields>
+      <libsource lib="TFRAS_TOP-rescue" part="SN65HVD75-Interface_UART" description=""/>
+      <property name="JLC part number" value=""/>
+      <property name="seeed sku" value="MAX3471EUA"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PAINTREv4.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-00006191b80c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector" part="Conn_01x02_Male">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Male">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Polyfuse">
+      <description>Resettable fuse, polymeric positive temperature coefficient</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>*polyfuse*</fp>
+        <fp>*PTC*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Polyfuse</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_Module" part="Arduino_Nano_Every">
+      <description>Arduino Nano Every</description>
+      <docs>https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</docs>
+      <footprints>
+        <fp>Arduino*Nano*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">A</field>
+        <field name="Value">Arduino_Nano_Every</field>
+        <field name="Footprint">Module:Arduino_Nano</field>
+        <field name="Datasheet">https://content.arduino.cc/assets/NANOEveryV3.0_sch.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TX1" type="bidirectional"/>
+        <pin num="2" name="RX1" type="bidirectional"/>
+        <pin num="3" name="~{RESET}" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="D2" type="bidirectional"/>
+        <pin num="6" name="D3" type="bidirectional"/>
+        <pin num="7" name="D4" type="bidirectional"/>
+        <pin num="8" name="D5" type="bidirectional"/>
+        <pin num="9" name="D6" type="bidirectional"/>
+        <pin num="10" name="D7" type="bidirectional"/>
+        <pin num="11" name="D8" type="bidirectional"/>
+        <pin num="12" name="D9" type="bidirectional"/>
+        <pin num="13" name="D10" type="bidirectional"/>
+        <pin num="14" name="MOSI" type="bidirectional"/>
+        <pin num="15" name="MISO" type="bidirectional"/>
+        <pin num="16" name="SCK" type="bidirectional"/>
+        <pin num="17" name="3V3" type="power_out"/>
+        <pin num="18" name="AREF" type="input"/>
+        <pin num="19" name="A0" type="bidirectional"/>
+        <pin num="20" name="A1" type="bidirectional"/>
+        <pin num="21" name="A2" type="bidirectional"/>
+        <pin num="22" name="A3" type="bidirectional"/>
+        <pin num="23" name="SDA/A4" type="bidirectional"/>
+        <pin num="24" name="SCL/A5" type="bidirectional"/>
+        <pin num="25" name="A6" type="bidirectional"/>
+        <pin num="26" name="A7" type="bidirectional"/>
+        <pin num="27" name="+5V" type="power_out"/>
+        <pin num="28" name="~{RESET}" type="input"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="PAINTREv3-rescue" part="CP-2164VCA-rescue-instrumnet-rescue">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP-2164VCA-rescue-instrumnet-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PAINTREv3-rescue" part="Connector_Conn_01x04_Female-newvco-cache-instrumnet-rescue">
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_Conn_01x04_Female-newvco-cache-instrumnet-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PAINTREv3-rescue" part="Ferrite_Bead_Small-Device">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">FB</field>
+        <field name="Value">Ferrite_Bead_Small-Device</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="PAINTREv3-rescue" part="R-2164VCA-rescue-instrumnet-rescue">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R-2164VCA-rescue-instrumnet-rescue</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="MAX31855KASA">
+      <description>Cold Junction K-type Termocouple Interface, SPI, SO8</description>
+      <docs>http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MAX31855KASA</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="Datasheet">http://datasheets.maximintegrated.com/en/ds/MAX31855.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="T-" type="passive"/>
+        <pin num="3" name="T+" type="passive"/>
+        <pin num="4" name="VCC" type="power_in"/>
+        <pin num="5" name="SCK" type="input"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="SO" type="tri_state"/>
+      </pins>
+    </libpart>
+    <libpart lib="TFRAS_TOP-rescue" part="SN65HVD75-Interface_UART">
+      <footprints>
+        <fp>MSOP*3x3mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN65HVD75-Interface_UART</field>
+        <field name="Footprint">Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="RO" type="output"/>
+        <pin num="2" name="~{RE}" type="input"/>
+        <pin num="3" name="DE" type="input"/>
+        <pin num="4" name="DI" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="A" type="bidirectional"/>
+        <pin num="7" name="B" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="MCU_Module">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/MCU_Module.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="PAINTREv3-rescue">
+      <uri>C:/Users/clan/Documents/GitHub/HOTROD-software/Probe instrumentation/PAINTREv3/PAINTREv3-rescue.lib</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="TFRAS_TOP-rescue">
+      <uri>C:/Users/clan/Documents/GitHub/TFRAS/Schematics and PCBs/TFRAS_TOP/TFRAS_TOP-rescue.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="A1" pin="27" pinfunction="+5V" pintype="power_out"/>
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R53" pin="1" pintype="passive"/>
+      <node ref="Ri2cSCL2" pin="1" pintype="passive"/>
+      <node ref="Ri2cSDA2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U2" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U5" pin="4" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="GND">
+      <node ref="A1" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="A1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R54" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="3" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="4" name="Net-(C3-Pad2)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(C4-Pad1)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C5-Pad2)">
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C6-Pad1)">
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C8-Pad2)">
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(C9-Pad1)">
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="10" name="Net-(C20-Pad2)">
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="T+" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(C34-Pad1)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="T-" pintype="passive"/>
+    </net>
+    <net code="13" name="Net-(D7-Pad1)">
+      <node ref="D7" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="L5" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="15" name="Net-(R55-Pad2)">
+      <node ref="R55" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="A" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="Net-(R56-Pad2)">
+      <node ref="R56" pin="2" pintype="passive"/>
+      <node ref="U6" pin="7" pinfunction="B" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="Net-(Ri2cSCL1-Pad1)">
+      <node ref="Ri2cSCL1" pin="1" pintype="passive"/>
+      <node ref="Ri2cSCL2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net-(Ri2cSDA1-Pad1)">
+      <node ref="Ri2cSDA1" pin="1" pintype="passive"/>
+      <node ref="Ri2cSDA2" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="RS485_A-">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="R56" pin="1" pintype="passive"/>
+      <node ref="R57" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="RS485_B+">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="R55" pin="1" pintype="passive"/>
+      <node ref="R57" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="RS485_EN">
+      <node ref="A1" pin="7" pinfunction="D4" pintype="bidirectional"/>
+      <node ref="R54" pin="1" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="~{RE}" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="DE" pintype="input"/>
+    </net>
+    <net code="22" name="UART_RX">
+      <node ref="A1" pin="2" pinfunction="RX1" pintype="bidirectional"/>
+      <node ref="R53" pin="2" pintype="passive"/>
+      <node ref="U6" pin="1" pinfunction="RO" pintype="output"/>
+    </net>
+    <net code="23" name="UART_TX">
+      <node ref="A1" pin="1" pinfunction="TX1" pintype="bidirectional"/>
+      <node ref="U6" pin="4" pinfunction="DI" pintype="input"/>
+    </net>
+    <net code="24" name="Vin">
+      <node ref="A1" pin="30" pinfunction="VIN" pintype="power_in"/>
+      <node ref="L5" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="cipo">
+      <node ref="A1" pin="15" pinfunction="MISO" pintype="bidirectional"/>
+      <node ref="U1" pin="7" pinfunction="SO" pintype="tri_state"/>
+      <node ref="U2" pin="7" pinfunction="SO" pintype="tri_state"/>
+      <node ref="U3" pin="7" pinfunction="SO" pintype="tri_state"/>
+      <node ref="U4" pin="7" pinfunction="SO" pintype="tri_state"/>
+      <node ref="U5" pin="7" pinfunction="SO" pintype="tri_state"/>
+    </net>
+    <net code="26" name="copi">
+      <node ref="A1" pin="14" pinfunction="MOSI" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="cs_1">
+      <node ref="A1" pin="9" pinfunction="D6" pintype="bidirectional"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="28" name="cs_2">
+      <node ref="A1" pin="10" pinfunction="D7" pintype="bidirectional"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="29" name="cs_3">
+      <node ref="A1" pin="11" pinfunction="D8" pintype="bidirectional"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="30" name="cs_4">
+      <node ref="A1" pin="12" pinfunction="D9" pintype="bidirectional"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U4" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="31" name="cs_5">
+      <node ref="A1" pin="13" pinfunction="D10" pintype="bidirectional"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U5" pin="6" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="32" name="sck">
+      <node ref="A1" pin="16" pinfunction="SCK" pintype="bidirectional"/>
+      <node ref="U1" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U3" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U4" pin="5" pinfunction="SCK" pintype="input"/>
+      <node ref="U5" pin="5" pinfunction="SCK" pintype="input"/>
+    </net>
+    <net code="33" name="scl">
+      <node ref="A1" pin="24" pinfunction="SCL/A5" pintype="bidirectional"/>
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="Ri2cSCL1" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="sda">
+      <node ref="A1" pin="23" pinfunction="SDA/A4" pintype="bidirectional"/>
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="Ri2cSDA1" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="tc1+">
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="36" name="tc1-">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="37" name="tc2+">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="tc2-">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="39" name="tc3+">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="tc3-">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="tc4+">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="tc4-">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="tc5+">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="44" name="tc5-">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="45" name="unconnected-(A1-Pad3)">
+      <node ref="A1" pin="3" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+    <net code="46" name="unconnected-(A1-Pad5)">
+      <node ref="A1" pin="5" pinfunction="D2" pintype="bidirectional"/>
+    </net>
+    <net code="47" name="unconnected-(A1-Pad6)">
+      <node ref="A1" pin="6" pinfunction="D3" pintype="bidirectional"/>
+    </net>
+    <net code="48" name="unconnected-(A1-Pad8)">
+      <node ref="A1" pin="8" pinfunction="D5" pintype="bidirectional"/>
+    </net>
+    <net code="49" name="unconnected-(A1-Pad17)">
+      <node ref="A1" pin="17" pinfunction="3V3" pintype="power_out"/>
+    </net>
+    <net code="50" name="unconnected-(A1-Pad18)">
+      <node ref="A1" pin="18" pinfunction="AREF" pintype="input"/>
+    </net>
+    <net code="51" name="unconnected-(A1-Pad19)">
+      <node ref="A1" pin="19" pinfunction="A0" pintype="bidirectional"/>
+    </net>
+    <net code="52" name="unconnected-(A1-Pad20)">
+      <node ref="A1" pin="20" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="53" name="unconnected-(A1-Pad21)">
+      <node ref="A1" pin="21" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="54" name="unconnected-(A1-Pad22)">
+      <node ref="A1" pin="22" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="unconnected-(A1-Pad25)">
+      <node ref="A1" pin="25" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="unconnected-(A1-Pad26)">
+      <node ref="A1" pin="26" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="unconnected-(A1-Pad28)">
+      <node ref="A1" pin="28" pinfunction="~{RESET}" pintype="input"/>
+    </net>
+  </nets>
+</export>
